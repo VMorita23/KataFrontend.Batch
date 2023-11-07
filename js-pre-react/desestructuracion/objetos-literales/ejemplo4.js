@@ -10,5 +10,5 @@ const persona = {
     }
 }
 
-const {nombre = "Luna"} = persona
+const {nombre = "Luna", dirección: {calle, colonia}} = persona
 console.log(nombre);
